@@ -23,7 +23,7 @@ def sum_of_multiples(x, y, limit):
         if isinstance(element, int):
             suma += element
 
-    return f' >> Result implemented in a function ===> {suma} '
+    return suma
 
 
 if __name__ == "__main__":
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         f'\n >> The sum of all the numbers {x} and {y} is equal to\n ==> {suma} ')
 
     use_funtion = sum_of_multiples(x, y, limit)
-    print(f'\n {use_funtion}\n')
+    print(f'\n  >> Result implemented in a function ==> {use_funtion}\n')
 
     print(' >>  A R R A Y ---------------------------------------------\n ')
     print(f'\n {Array}')
